@@ -1,0 +1,42 @@
+body {
+    background-color: #282a36;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+h1,
+h2,
+h3,
+p,
+a {
+    color: #f8f8f2;
+    font-family: monospace;
+}
+
+h1 {
+    font-family: monospace;
+    font-size: 5em;
+}
+
+.content {
+    border-radius: 25px;
+    padding: 10px;
+    min-width: 75%;
+}
+
+.top-bar  {
+    display: inline-block;
+}
+
+a {
+    user-select: none;
+    cursor: pointer;
+    font-size: large;
+    border: 1px solid #f8f8f2;
+    padding: 10px;
+    margin-bottom: 10px;
+}
